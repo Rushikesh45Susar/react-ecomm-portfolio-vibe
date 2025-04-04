@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
             <a href="#" className="text-xl font-bold text-blue-600">
-              Dev<span className="text-gray-800 dark:text-white">Portfolio</span>
+              Rushikesh<span className="text-gray-800 dark:text-white">Susar</span>
             </a>
           </div>
           

@@ -12,7 +12,7 @@ const AboutMe = () => {
           </h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            I'm a specialized frontend developer with years of experience building modern web applications
+            Front-end Developer with expertise in building modern web applications
             and smart TV platforms.
           </p>
         </div>
@@ -23,13 +23,14 @@ const AboutMe = () => {
               Who I Am
             </h3>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              I'm a passionate frontend developer with a deep understanding of modern JavaScript frameworks
+              I'm Rushikesh Susar, a passionate frontend developer with a deep understanding of modern JavaScript frameworks
               and a specialization in building ecommerce and OTT applications. With expertise in React.js and Solid.js, 
               I develop highly optimized and responsive applications that deliver exceptional user experiences.
             </p>
             <p className="text-gray-600 dark:text-gray-400">
-              My journey in development began with web applications, but I've since expanded my expertise to include
-              smart TV platforms like Tizen and WebOS, creating applications that seamlessly bridge traditional web and TV interfaces.
+              Currently working as a Software Development Engineer at Accenture, I've previously worked at Samsung Research 
+              India where I expanded my expertise to include smart TV platforms like Tizen and WebOS, creating applications 
+              that seamlessly bridge traditional web and TV interfaces.
             </p>
           </div>
 
@@ -45,6 +46,7 @@ const AboutMe = () => {
             <p className="text-gray-600 dark:text-gray-400">
               Additionally, I develop custom applications for smart TV platforms, leveraging the unique capabilities of
               Tizen and WebOS to create intuitive interfaces optimized for the big screen and remote-based navigation.
+              I'm also experienced in implementing standards like HbbTV for interactive TV services.
             </p>
           </div>
         </div>
@@ -68,7 +70,7 @@ const AboutMe = () => {
             },
             {
               title: 'Smart TV Apps',
-              description: 'Tizen and WebOS optimized experiences',
+              description: 'Tizen, WebOS, and HbbTV optimized experiences',
               icon: <Globe className="w-10 h-10 text-blue-600" />,
             },
           ].map((item, index) => (

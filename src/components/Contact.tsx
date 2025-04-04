@@ -71,7 +71,7 @@ const Contact = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">Email</h4>
-                    <p className="text-gray-700 dark:text-gray-300">contact@yourdomain.com</p>
+                    <p className="text-gray-700 dark:text-gray-300">rushikeshsusar90@gmail.com</p>
                   </div>
                 </div>
                 
@@ -81,7 +81,7 @@ const Contact = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">Phone</h4>
-                    <p className="text-gray-700 dark:text-gray-300">+1 (123) 456-7890</p>
+                    <p className="text-gray-700 dark:text-gray-300">+91 7276651504</p>
                   </div>
                 </div>
                 
@@ -91,7 +91,7 @@ const Contact = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">Location</h4>
-                    <p className="text-gray-700 dark:text-gray-300">San Francisco, CA</p>
+                    <p className="text-gray-700 dark:text-gray-300">Pune, Maharashtra, India</p>
                   </div>
                 </div>
               </div>
@@ -102,7 +102,9 @@ const Contact = () => {
                   {['github', 'twitter', 'linkedin'].map((platform) => (
                     <a 
                       key={platform} 
-                      href="#" 
+                      href={platform === 'linkedin' ? 'https://www.linkedin.com/in/rushikesh-susar-2300001bb/' : '#'} 
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="bg-gray-100 dark:bg-gray-800 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 dark:hover:bg-blue-900 transition-colors"
                     >
                       <span className="sr-only">{platform}</span>

@@ -5,20 +5,20 @@ import { Card, CardContent } from '@/components/ui/card';
 const Skills = () => {
   const frontendSkills = [
     { name: 'React.js', level: 95 },
-    { name: 'Solid.js', level: 90 },
-    { name: 'JavaScript/TypeScript', level: 95 },
+    { name: 'JavaScript/TypeScript', level: 90 },
     { name: 'HTML5/CSS3', level: 90 },
+    { name: 'Solid.js', level: 85 },
     { name: 'Redux/Context API', level: 85 },
     { name: 'Responsive Design', level: 90 },
   ];
 
   const tvPlatformSkills = [
-    { name: 'Tizen SDK', level: 85 },
-    { name: 'WebOS SDK', level: 80 },
+    { name: 'Tizen SDK', level: 90 },
+    { name: 'WebOS SDK', level: 85 },
+    { name: 'HbbTV Standard', level: 80 },
     { name: 'TV App UX Design', level: 85 },
     { name: 'Remote-First Navigation', level: 90 },
     { name: 'Media Playback APIs', level: 85 },
-    { name: 'Performance Optimization', level: 80 },
   ];
 
   const otherSkills = [
@@ -31,9 +31,9 @@ const Skills = () => {
     'Webpack/Vite',
     'PWA Development',
     'Agile Methodology',
-    'WebRTC',
+    'Web Components',
     'Streaming Protocols (HLS, DASH)',
-    'Microservices Architecture',
+    'Mobile-First Development',
   ];
 
   return (

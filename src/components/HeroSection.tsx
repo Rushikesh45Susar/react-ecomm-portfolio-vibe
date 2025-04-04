@@ -10,16 +10,16 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-7 animate-fade-in">
             <div className="space-y-4">
-              <h2 className="text-lg md:text-xl font-semibold text-blue-600">Hello, I'm a</h2>
+              <h2 className="text-lg md:text-xl font-semibold text-blue-600">Hello, I'm</h2>
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white">
-                Frontend Developer
+                Rushikesh Susar
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300">
-                Specializing in React, Solid.js & Smart TV Applications
+                Frontend Developer & Smart TV Specialist
               </h2>
               <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl">
                 I build exceptional digital experiences for ecommerce and OTT platforms,
-                with expertise in smart TV technologies including Tizen and WebOS.
+                with expertise in React.js, Solid.js, and smart TV technologies including Tizen and WebOS.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
@@ -40,7 +40,7 @@ const HeroSection = () => {
             <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full bg-blue-600 bg-opacity-10 flex items-center justify-center overflow-hidden">
               <div className="absolute w-64 h-64 md:w-80 md:h-80 rounded-full border-2 border-blue-600 border-opacity-30 animate-pulse"></div>
               <div className="absolute h-full w-full bg-gradient-to-br from-blue-600/20 to-blue-600/5"></div>
-              <div className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">JS</div>
+              <div className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">RS</div>
             </div>
           </div>
         </div>

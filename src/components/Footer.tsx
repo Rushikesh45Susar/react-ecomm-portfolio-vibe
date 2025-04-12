@@ -1,5 +1,5 @@
 
-import { ArrowUp } from 'lucide-react';
+import { ArrowUp, Github, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Footer = () => {
@@ -26,11 +26,12 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/"
+                href="https://github.com/Rushikesh45Susar"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
               >
+                <Github className="h-5 w-5 text-white" />
                 <span className="sr-only">GitHub</span>
               </a>
               <a
@@ -47,6 +48,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="bg-gray-800 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
               >
+                <Linkedin className="h-5 w-5 text-white" />
                 <span className="sr-only">LinkedIn</span>
               </a>
             </div>
@@ -77,8 +79,8 @@ const Footer = () => {
           <div className="md:col-span-4">
             <h4 className="text-lg font-semibold mb-4">Get In Touch</h4>
             <div className="space-y-2">
-              <p className="text-gray-400">rushikeshsusar90@gmail.com</p>
-              <p className="text-gray-400">+91 7276651504</p>
+              <p className="text-gray-400">rdsusar@gmail.com</p>
+              <p className="text-gray-400">+91 9172361708</p>
               <p className="text-gray-400">Pune, Maharashtra, India</p>
             </div>
           </div>

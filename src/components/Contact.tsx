@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -71,7 +71,7 @@ const Contact = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">Email</h4>
-                    <p className="text-gray-700 dark:text-gray-300">rushikeshsusar90@gmail.com</p>
+                    <p className="text-gray-700 dark:text-gray-300">rdsusar@gmail.com</p>
                   </div>
                 </div>
                 
@@ -81,7 +81,7 @@ const Contact = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">Phone</h4>
-                    <p className="text-gray-700 dark:text-gray-300">+91 7276651504</p>
+                    <p className="text-gray-700 dark:text-gray-300">+91 9172361708</p>
                   </div>
                 </div>
                 
@@ -99,20 +99,24 @@ const Contact = () => {
               <div className="mt-8">
                 <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-3">Connect with me</h4>
                 <div className="flex space-x-4">
-                  {['github', 'twitter', 'linkedin'].map((platform) => (
-                    <a 
-                      key={platform} 
-                      href={platform === 'linkedin' ? 'https://www.linkedin.com/in/rushikesh-susar-2300001bb/' : '#'} 
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-gray-100 dark:bg-gray-800 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 dark:hover:bg-blue-900 transition-colors"
-                    >
-                      <span className="sr-only">{platform}</span>
-                      <div className="w-5 h-5 text-gray-600 dark:text-gray-400">
-                        {/* Placeholder for social icons */}
-                      </div>
-                    </a>
-                  ))}
+                  <a 
+                    href="https://github.com/Rushikesh45Susar" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-gray-100 dark:bg-gray-800 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 dark:hover:bg-blue-900 transition-colors"
+                  >
+                    <Github className="w-5 h-5 text-gray-600 dark:text-gray-400" />
+                    <span className="sr-only">GitHub</span>
+                  </a>
+                  <a 
+                    href="https://www.linkedin.com/in/rushikesh-susar-2300001bb/" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-gray-100 dark:bg-gray-800 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-100 dark:hover:bg-blue-900 transition-colors"
+                  >
+                    <Linkedin className="w-5 h-5 text-gray-600 dark:text-gray-400" />
+                    <span className="sr-only">LinkedIn</span>
+                  </a>
                 </div>
               </div>
             </div>
